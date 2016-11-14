@@ -35,6 +35,7 @@ Public Class frmPrincipal
    End Sub
 
    Private Sub bt_End_Click(sender As Object, e As EventArgs) Handles bt_End.Click, Me.FormClosing
+        Me.Close()
 
-   End Sub
+    End Sub
 End Class
